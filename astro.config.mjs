@@ -6,17 +6,17 @@ import starlightThemeObsidian from 'starlight-theme-obsidian'
 
 // https://astro.build/config
 export default defineConfig({
-	site: "https://peakmodding.github.io",
+	site: "https://superbattlegolfmodding.github.io",
 	integrations: [
 		starlight({
-			title: 'PEAK Modding Wiki',
+			title: 'SBG Modding Wiki',
 			lastUpdated: true,
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/PEAKModding' },
-				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/SAw86z24rB' }
+				{ icon: 'discord', label: 'Discord', href: 'https://discord.gg/CCcvS2JDjH' }
 			],
 			editLink: {
-				baseUrl: "https://github.com/PEAKModding/PEAKModding.github.io/edit/main/"
+				baseUrl: "https://github.com/SuperBattleGolfModding/SuperBattleGolfModding.github.io/edit/main/"
 			},
 			customCss: [
 				'./src/styles/global.css',
